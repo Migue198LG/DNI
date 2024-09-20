@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor principal */
+.principal {
+    width: 80%; /* Cambiado a porcentaje para mejor adaptabilidad */
+    max-width: 600px; /* Añadido máximo ancho para evitar que se extienda demasiado */
+    margin: 20px auto; /* Aumentado el margen para centrado vertical y horizontal */
+    padding: 30px;
+    background-color: #F0FFFF; /* Mantenido el color de fondo */
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Aumentado el tamaño y opacidad de la sombra */
+    border: 2px solid #4682B4; /* Mantenido el color del borde */
+    font-family: 'Arial', sans-serif; /* Cambiado a comillas simples y añadido fallback */
+    text-align: center;
+}
+
+/* Estilo para títulos */
+.principal h1 {
+    margin-bottom: 20px;
+    color: #4682B4; /* Cambiado color del título a azul claro */
+}
+
+/* Estilo para etiquetas */
+label {
+    display: block;
+    margin-top: 15px; /* Reducido el margen superior para mayor proximidad */
+    font-weight: bold;
+    font-size: 16px; /* Aumentado el tamaño de fuente */
+    color: #333;
+    text-align: left; /* Cambiado a alineación izquierda */
+}
+
+/* Estilo para cuadros de entrada de texto */
+.cuadro {
+    width: calc(100% - 20px); /* Ajustado para incluir padding en el ancho total */
+    height: 50px; /* Aumentado el alto para mejor accesibilidad */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFFFFF;
+    border: 2px solid #4682B4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilo para botones */
+.boton {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4682B4;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para hover en botones */
+.boton:hover {
+    background-color: #FFFACD; /* Cambiado a un tono dorado al hacer hover */
+    color: #4682B4; /* Cambiado color del texto al hacer hover */
+}
